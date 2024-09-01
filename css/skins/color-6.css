@@ -1,0 +1,7 @@
+:root {
+    --skin-color: #d8a25e;
+    --skin-background: 0 4px 8px rgba(216, 162, 94, 0.6),
+    0 8px 16px rgba(216, 162, 94, 0.4), 
+    0 12px 24px rgba(216, 162, 94, 0.3), 
+    0 16px 32px rgba(216, 162, 94, 0.2);
+}

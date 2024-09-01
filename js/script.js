@@ -1,7 +1,7 @@
 // Typing Animation
 
 let typed = new Typed(".typing", {
-    strings: ["Software Engineer", "MERN Stack Developer", "FrontEnd Developer", "BackEnd Developer" ],
+    strings: ["MERN Stack Developer", "FrontEnd Developer", "BackEnd Developer", "Software Engineer" ],
     typeSpeed:60,
     BackSpeed:60,
     loop: true
@@ -31,6 +31,10 @@ for(let i=0 ; i<totalNavList; i++) {
         for(let i=0 ; i<totalSection; i++) {
             allSection[i].classList.remove("back-section")
         }
+
+        // if(allSection[i] == allSection[j]) {
+        //     allSection[i].classList.remove("back-section")
+        // }
 
         for(let j=0 ; j< totalNavList; j++) {
 
