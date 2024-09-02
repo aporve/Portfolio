@@ -19,6 +19,7 @@
     <link rel="stylesheet" href="./css/skins/color-5.css" class="alternate-style" title="color-5" disabled>
     <link rel="stylesheet" href="./css/skins/color-6.css" class="alternate-style" title="color-6" disabled>
     <link rel="stylesheet" href="./css/style-switcher.css">
+    <link rel="stylesheet" href="./css/bot-style.css">
 </head>
 <body class="dark">
     <!-- Main container Start -->
@@ -724,11 +725,95 @@
 
 
 
+    <!-- Bot Script start -->
+    <div class="bot-container hide">
+        <div class="container">
+            <div class="chat-details">
+                <div class="chat-icon">
+                    <div class="chat-icon-logo">
+                       <p> &#11207 &#11208 </p>
+                    </div>
+                    <div class="online"></div>
+                    
+                </div>
+
+                <div class="chatbot-detail-description">
+                    <p class="chatbot-name">PilotXpert</p>
+                   
+                    <p class="chatbot-desctiption">Your Virtual Assistant</p>
+                </div>
+
+                <div class="icon">
+                   <button id="close">  
+                     <ion-icon name="close-outline"></ion-icon>
+                   </button>
+
+                </div>
+
+            </div>
+            
+            <div id="chat-box" class="chat-box">
+                <p class="bot">
+                    Hi ! I am <strong>PioletXpert</strong>, your virtual assistant, 
+                    I am Fluent in both English!! <br>
+                    I can help you with My details, Contact number or your general Queries &#128519.
+                </p>
+
+                <!-- <div class="quick-reply">
+                    <p class="bot">
+                        Hi ! I am <strong>PioletXpert</strong>, your virtual assistant, 
+                        I am Fluent in both English!! <br>
+                        Tell me please how can i help you &#128519.
+                    </p>
+                    <div class="qr">
+                        <a href="#" onclick="checkMessage('aboutMe')" >About me</a>
+                        <a href="#" onclick="checkMessage('skills')">Skills</a>
+                        <a href="#" onclick="checkMessage('contactMe')">Contact Me</a>
+                    </div>
+
+                </div> -->
+                
+
+                
+
+            </div>
+            <div class="text-area">
+                <input type="text" id="user-input" value="Tell me your skills" class="user-input" placeholder="Ask me anything...">
+                <button id="send-btn">
+                    <ion-icon name="send-outline"></ion-icon>
+                </button>
+    
+            </div>
+        </div>
+
+    </div>
+
+
+    <div class="pilotXpert-widget " id="pilotXpert-widget">
+        <p> &#11207 &#11208 </p>
+        <!-- <p> &#11210 &#11208 </p> -->
+    </div>
+    <!-- Bot Script start -->
+
+
+
+
+
+
+
     <!-- JS Files -->
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.1.0/typed.umd.js" integrity="sha512-+2pW8xXU/rNr7VS+H62aqapfRpqFwnSQh9ap6THjsm41AxgA0MhFRtfrABS+Lx2KHJn82UOrnBKhjZOXpom2LQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="./js/script.js"></script>
     <script src="./js/style-switcher.js"></script>
 
+
+
+
+    <!-- bot script -->
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script src="./scripts.js"></script>
+     <script src="./js/bot-script.js"></script>
 </body>
 </html>

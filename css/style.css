@@ -352,17 +352,8 @@ h3.hello span {
     text-align: center;
     position: relative;
     color: var(--skin-color);
-   
-    /* border-radius: 8px; */
-   
-
 
 }
-/* 
-.home .home-img:hover  svg {
-    transform: scale(1.1);
-    
-} */
 
 .home .home-img img {
     width: 100%;
@@ -370,18 +361,13 @@ h3.hello span {
 }
 
 svg {
-    /* height: 100%; */
     width: 100%;
     transition: all .3s;
-    /* background-color: red; */
     
 }
 
 svg:hover {
     transform: scale(1.01);
-    /* box-shadow: 10px 10px 20px rgba(250, 91, 15, 0.4),
-                20px 20px 30px rgba(255, 102, 30, 0.3),
-                -10px -10px 20px rgba(200, 70, 10, 0.2); */
     box-shadow: var( --skin-background)
 }
 
@@ -400,34 +386,6 @@ h3.my-profession {
     color: var(--text-black-700);
 }
 
-/* .home-img::after {
-    content: '';
-    position: absolute;
-    height: 80px;
-    width: 80px;
-    border-bottom: 10px solid var(--skin-color);
-    border-right: 10px solid var(--skin-color);
-    right: 20px;
-    bottom: -40px;
-}
-
-.home-img::before {
-    content: '';
-    position: absolute;
-    height: 80px;
-    width: 80px;
-    border-top: 10px solid var(--skin-color);
-    border-left: 10px solid var(--skin-color);
-    left: -20px;
-    top: -40px;
-} */
-
-
-/* .home .home-img img { 
-    height: 400px;
-    width: 300px;
-    border-radius: 5px;
-} */
 
 /* About content  */
 
