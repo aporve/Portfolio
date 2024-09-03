@@ -29,7 +29,7 @@ body.dark {
 
 body {
     line-height: 1.5;
-    font-size: 62.5%;
+    /* font-size: 62.5%; */
     font-family: "Poppins", sans-serif;
 }
 
@@ -442,7 +442,7 @@ max-width: 100%;
 }
 
 .about .about-content .personal-info .buttons .btn {
-    margin-right: 15px;
+    /* margin-right: 15px; */
     margin-top: 10px;
 }
 
@@ -577,13 +577,17 @@ max-width: 100%;
     margin-bottom: 15px;
     text-transform: capitalize;
     color: var(--text-black-900);
+    /* color: var(--skin-color); */
 }
 
 .about .about-content .timeline .timeline-text {
     line-height: 25px;
     font-size: 16px;
-    text-align: justify;
+    /* text-align: justify; */
     color: var(--text-black-700);
+
+    word-spacing: normal;
+   
 }
 
 /* Services */
@@ -733,7 +737,9 @@ max-width: 100%;
     margin: 15px 0 5px;
 }
 
-.contact .contact-info-item p {
+.contact .contact-info-item p,
+.contact .contact-info-item p a {
+    
     font-size: 16px;
     line-height: 25px;
     color: var(--text-black-700);
@@ -743,6 +749,8 @@ max-width: 100%;
 .contact .contact-form {
     flex: 0 0 100%;
     max-width: 100%;
+
+   
 }
 
 .contact .contact-form .col-6 {
@@ -766,7 +774,8 @@ max-width: 100%;
     background: var(--bg-black-100);
     border: 1px solid var(--bg-black-50);
     padding: 10px 25px;
-    color: var(--text-black-700);
+    /* color: var(--text-black-700); */
+    color: #fff;
     transition: all .3s ease;
 }
 
@@ -787,6 +796,11 @@ max-width: 100%;
 
 
 @media (max-width: 1199px ) {
+
+    .section .container {
+        padding-top: 70px;
+    }
+
     .aside {
         left: -270px;
     }
