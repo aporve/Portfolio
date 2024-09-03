@@ -79,7 +79,7 @@ body {
 
 .chat-icon-logo p {
     animation: rotate 2s linear infinite;
-    font-size: 12px;
+    font-size: 10px;
 }
 
 .chatbot-detail-description {
@@ -222,8 +222,8 @@ input,button {
 /* widget */
 
 .pilotXpert-widget {
-    width: 75px;
-    height: 75px;
+    width: 70px;
+    height: 70px;
     border-radius: 50%;
 
     font-size: 22px;
