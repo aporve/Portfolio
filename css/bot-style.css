@@ -80,7 +80,8 @@ body {
 
 .chat-icon-logo p {
     animation: rotate 2s linear infinite;
-    font-size: 10px;
+    font-size: 12px;
+    font-weight: 400;
 }
 
 .chatbot-detail-description {
