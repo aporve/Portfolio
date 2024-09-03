@@ -22,7 +22,8 @@ body {
     bottom: 10px;
 
     width: 400px;
-    height: 600px;
+    /* height: 600px; */
+    height: 90%;
     max-height: 600px;
     /* box-shadow: 0 5px 40px rgba(0, 0, 0, 0.16); */
     box-shadow: 0 5px 40px #ffffff5e;
@@ -290,3 +291,16 @@ input,button {
 }
 
 
+
+
+
+@media (max-width: 549px) {
+
+    .bot-container {
+        height: 100%;
+        width: 100%;
+        right: 0;
+        bottom: 0;
+    }
+
+}
