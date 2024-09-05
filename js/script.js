@@ -148,6 +148,57 @@ document.getElementById('emailForm').addEventListener('submit', function(event) 
 
 
 
+// Project Tooltip
+
+ const hoverElement = document.getElementById('portfolio-item');
+ const projectTooltip = document.getElementById('project-tooltip');
+
+hoverElement.addEventListener('mouseover', function() {
+    projectTooltip.style.display = 'block';
+});
+
+hoverElement.addEventListener('mouseout', function() {
+    projectTooltip.style.display = 'none';
+});
+
+
+const hoverElement2 = document.getElementById('portfolio-item-2');
+const projectTooltip2 = document.getElementById('project-tooltip-2');
+
+hoverElement2.addEventListener('mouseover', function() {
+   projectTooltip2.style.display = 'block';
+});
+
+hoverElement2.addEventListener('mouseout', function() {
+   projectTooltip2.style.display = 'none';
+});
+
+
+const hoverElement3 = document.getElementById('portfolio-item-3');
+const projectTooltip3 = document.getElementById('project-tooltip-3');
+
+hoverElement3.addEventListener('mouseover', function() {
+   projectTooltip3.style.display = 'block';
+});
+
+hoverElement3.addEventListener('mouseout', function() {
+   projectTooltip3.style.display = 'none';
+});
+
+
+const hoverElement4 = document.getElementById('portfolio-item-4');
+const projectTooltip4 = document.getElementById('project-tooltip-4');
+
+hoverElement4.addEventListener('mouseover', function() {
+   projectTooltip4.style.display = 'block';
+});
+
+hoverElement4.addEventListener('mouseout', function() {
+   projectTooltip4.style.display = 'none';
+});
+
+
+
 
 
 
