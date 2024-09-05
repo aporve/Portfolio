@@ -18,7 +18,7 @@ body {
 
 .bot-container {
     position: absolute;
-    right: 10px;
+    right: 20px;
     bottom: 10px;
 
     width: 400px;
@@ -191,6 +191,7 @@ body {
     height: 100%;
     padding: 0 10px;
     font-size: 16px;
+    font-family: inherit;
 }
 
 
@@ -298,7 +299,7 @@ input,button {
 @media (max-width: 549px) {
 
     .bot-container {
-        max-height: fit-content;
+        /* max-height: fit-content; */
         height: 100%;
         width: 100%;
         right: 0;

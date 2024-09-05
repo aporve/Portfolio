@@ -849,8 +849,8 @@ max-width: 100%;
     background: var(--bg-black-100);
     border: 1px solid var(--bg-black-50);
     padding: 10px 25px;
-    /* color: var(--text-black-700); */
-    color: #fff;
+    color: var(--text-black-700);
+    /* color: #fff; */
     transition: all .3s ease;
 }
 

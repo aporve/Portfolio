@@ -68,7 +68,7 @@ function getBotResponse(userMessage) {
     const lowerCaseMessage = userMessage.toLowerCase();
     
     if (lowerCaseMessage.includes('hello') || lowerCaseMessage.includes('hi') || lowerCaseMessage.includes('menu')) {
-        return `Hi ! I am <strong>PioletXpert</strong>, your virtual assistant, I am Fluent in both English!! <br> Tell me please how can i help you.`;
+        return `Hi ! I am <strong>PioletXpert</strong>, your virtual assistant, I am Fluent in English!! <br> Tell me please how can i help you.`;
     } 
     
     else if (lowerCaseMessage.includes('name')) {
