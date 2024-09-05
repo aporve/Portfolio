@@ -711,7 +711,7 @@ max-width: 100%;
    display: grid;
    justify-content: start;
    
-   padding: 0 52px;
+   padding: 10px 52px;
    transition: all .5s;
 }
 
@@ -726,6 +726,15 @@ max-width: 100%;
     color: var(--text-black-700);
 }
 
+.portfolio-item-description  h2 {
+    color: var(--skin-color);
+    margin-bottom: 10px;
+}
+
+.portfolio-item-description p {
+   font-size: 16px;
+}
+
 
 .portfolio-item {
     position: relative;
@@ -734,7 +743,7 @@ max-width: 100%;
 
 .project-tooltip {
     position: absolute;
-    top: -50px;
+    top: -40px;
     left: 50%;
     transform: translateX(-50%);
     color: #fff;
@@ -742,6 +751,10 @@ max-width: 100%;
     padding: 8px 12px;
     border-radius: 5px;
     display: none;
+}
+
+.project-tooltip:hover {
+    display: block;
 }
 
 /* .portfolio-projects::before {
