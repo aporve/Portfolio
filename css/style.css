@@ -687,6 +687,10 @@ max-width: 100%;
     padding: 18px;
 }
 
+.grid--2-cols:hover {
+    box-shadow: var(--skin-background);
+}
+
 
 .grid--2-cols:first-child {
     margin-top: 24px;
@@ -717,8 +721,8 @@ max-width: 100%;
 
 .portfolio .portfolio-item .portfolio-img img:hover{
     transform: scale(1.05);
-    /* box-shadow: 0 0 8px black; */
-    box-shadow: var(--skin-background);
+    box-shadow: 0 0 8px rgb(211, 207, 207);
+    /* box-shadow: var(--skin-background); */
  }
 
 
@@ -743,7 +747,7 @@ max-width: 100%;
 
 .project-tooltip {
     position: absolute;
-    top: -40px;
+    top: -50px;
     left: 50%;
     transform: translateX(-50%);
     color: #fff;
@@ -861,8 +865,10 @@ max-width: 100%;
 }
 
 .contact .contact-form .btn {
+    /* width: 90%; */
     height: 50px;
     padding: 0 50px;
+    border-radius: 5px;
 }
 
 
