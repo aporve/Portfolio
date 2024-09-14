@@ -52,13 +52,20 @@ What is your favorite color? -D
 
 Do you have any siblings? -P
 
-What’s your favorite food?
-What’s your favorite drink?
-Do you have a nickname?
-What’s your birthday?
-What languages do you speak?
+What’s your favorite food? -D
 
-2. Hobbies and Interests
+What’s your favorite drink? -D
+
+Do you have a nickname? -D
+What’s your birthday? -P
+What languages do you speak? -D
+
+
+
+
+
+
+2. Hobbies and Interests -P
 What are your hobbies?
 Do you like reading books?
 What kind of music do you enjoy?
@@ -70,7 +77,7 @@ What’s your favorite book?
 Do you enjoy cooking?
 What’s your favorite type of cuisine?
 
-3. Work and Education
+3. Work and Education - P
 What do you do for a living?
 Where did you go to school?
 What’s your highest level of education?
@@ -82,7 +89,7 @@ What’s the best part of your job?
 Do you work from home?
 How do you manage work-life balance?
 
-4. Technology and Gadgets
+4. Technology and Gadgets -P
 What’s your favorite gadget?
 Do you prefer Android or iOS?
 Are you into gaming?
@@ -91,6 +98,11 @@ Do you like smart home devices?
 What’s your favorite app?
 How do you stay updated with technology?
 Do you use social media?
+
+
+
+
+
 What’s your favorite social media platform?
 Are you interested in AI and machine learning?
 

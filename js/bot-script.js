@@ -70,8 +70,16 @@ function getBotResponse(userMessage) {
     if (lowerCaseMessage.includes('hello') || lowerCaseMessage.includes('hi') || lowerCaseMessage.includes('menu')) {
         return `Hi ! I am <strong>PioletXpert</strong>, your virtual assistant, I am Fluent in English!! <br> Tell me please how can i help you.`;
     } 
+
+    else if (lowerCaseMessage.includes(`nick name`)) {
+        return `My known people call me appu.`;
+    }
+
+    else if (lowerCaseMessage.includes(`language do you speak`)) {
+        return `I can speak English and Hindi`;
+    }
     
-    else if (lowerCaseMessage.includes('name')) {
+    else if (lowerCaseMessage.includes('your name') || lowerCaseMessage.includes('what can i call you')) {
         return `Hey, my name is <strong>Aporve Bhatnagar</strong> . <br> Currently you are interacting with <strong>PioletXpert</strong>. You can ask anything about me `;
     }  
     
@@ -87,8 +95,8 @@ function getBotResponse(userMessage) {
         return `I have 2 in my favourate Black and Orange.`;
     } 
     
-    else if (lowerCaseMessage.includes('skills')) {
-        return `I am skilled in HTML5, CSS3,Bootstrap, Tailwind, JavaScript,jQuery, Ajax , React, Nextjs and Node.js.`;
+    else if (lowerCaseMessage.includes('skills') || lowerCaseMessage.includes('languages') ) {
+        return `I am skilled in: <br><br>Frontend:  <br>HTML5, CSS3,JavaScript. <br><br>Css Framework: <br>Bootstrap, Tailwind <br><br>Frontend Framework: <br>Reactjs <br><br>Js Library: <br>jquery, Ajax <br><br>Backend: <br>Nodejs <br><br>Database: <br>Mongodb - Sql/Nosql`;
     } 
     
     else if (lowerCaseMessage.includes(`projects`)) {
@@ -106,6 +114,12 @@ function getBotResponse(userMessage) {
     else if (lowerCaseMessage.includes(`experience`)) {
         return `I have 3+ years of experience in software development.`;
     } 
+
+    else if (lowerCaseMessage.includes(`drink`)) {
+        return `I love coffee &#9749;.`;
+    }
+
+  
     
     else if (lowerCaseMessage.includes('ok') || lowerCaseMessage.includes('bye') || lowerCaseMessage.includes('good bye') || lowerCaseMessage.includes('see you') ) {
         return `Thank You! have a good day`;
@@ -116,6 +130,6 @@ function getBotResponse(userMessage) {
     } 
     
     else {
-        return `I\'m not sure about that. Could you ask something else?`;
+        return `I\'m not sure about that. <br> You can contact me on aporvep@gmail.com / 918077981332`;
     }
 }
